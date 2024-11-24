@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    height: 8vh;
+}
+
+header li {
+    margin-top: 3.5vh;
+    text-align: center;
+}
+
+header li a {
+    margin-left: 20vw;
+    font-family: Avenir;
+}
+
+header li a:hover {
+    color: darkred;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Center {
+    margin: 0 auto;
+}
+
+.Grid1x2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}

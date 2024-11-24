@@ -1,0 +1,39 @@
+.ContainerLogin {
+    height: 100vh;
+}
+
+.ContainerLogin img {
+    margin-top: 20vh;
+    margin-left: 5vw;
+}
+
+.ContainerLogin form {
+    margin-top: 35vh;
+    margin-left: 5vw;
+}
+
+.ContainerLogin form label {
+    font-family: Avenir;
+    font-size: 1.3rem;
+}
+
+.ContainerLogin form input {
+    height: 3vh;
+    width: 20vw;
+    border: 1px solid #382B73;
+}
+
+.ContainerLogin form input:read-write {
+    padding-left: 1vw;
+}
+
+.ContainerLogin form button {
+    padding: 1vw;
+    color: aliceblue;
+    background-color: #382B73;
+    font-family: Avenir;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

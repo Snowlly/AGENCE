@@ -1,0 +1,33 @@
+.formClientele {
+    margin-top: 15vh;
+    margin-left: 10vh;
+}
+
+.formClientele label {
+    font-family: Avenir;
+    font-size: 1.5rem;
+}
+
+.formClientele input {
+    height: 3vh;
+    width: 20vw;
+    border: 1px solid #382B73;
+}
+
+.formClientele select {
+    height: 3vh;
+    width: 20vw;
+    background-color: white;
+    border: 1px solid #382B73;
+}
+
+.formClientele button {
+    padding: 1vw;
+    color: aliceblue;
+    background-color: #382B73;
+    font-family: Avenir;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

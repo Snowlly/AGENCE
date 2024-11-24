@@ -1,0 +1,45 @@
+.ContainerNewAccount {
+    height: 100vh;
+}
+
+.ContainerNewAccount img {
+    margin-top: 20vh;
+}
+
+.ContainerNewAccount form {
+    margin-top: 20vh;
+    margin-left: 5vw;
+}
+
+.ContainerNewAccount form label {
+    font-family: Avenir;
+    font-size: 1.3rem;
+}
+
+.ContainerNewAccount form input {
+    height: 3vh;
+    width: 20vw;
+    border: 1px solid #382B73;
+}
+
+.ContainerNewAccount form select {
+    height: 3vh;
+    width: 20vw;
+    background-color: white;
+    border: 1px solid #382B73;
+}
+
+.ContainerNewAccount form input:read-write {
+    padding-left: 1vw;
+}
+
+.ContainerNewAccount form button {
+    padding: 1vw;
+    color: aliceblue;
+    background-color: #382B73;
+    font-family: Avenir;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

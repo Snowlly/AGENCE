@@ -1,0 +1,12 @@
+.SousTitreAdmin {
+    margin-left: 10vw;
+    font-size: 1rem;
+    font-family: Avenir;
+    color: darkred;
+}
+
+.TitreDashboard {
+    padding-top: 20vh;
+    margin-left: 10vw;
+    font-family: Avenir;
+}
